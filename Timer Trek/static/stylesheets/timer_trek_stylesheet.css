@@ -1,0 +1,50 @@
+@font-face {
+    font-family: LCARS_Font;
+    src: url("../fonts/lcars_font.ttf") format("truetype");
+}
+
+* {
+    text-align: center;
+    font-family: LCARS_Font, serif;
+}
+
+body {
+    background-size: cover;
+    background-color: #000000;
+}
+
+h1 {
+    color: #FF9900;
+    margin-top: .5em;
+    font-size: 400%;
+}
+
+input {
+    border-radius: 24em;
+    background-color: #FF9900;
+    border: #000000;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+input:first-of-type {
+}
+
+body>div {
+    margin-top: 4em;
+}
+
+span {
+    color: #FF9900;
+    font-size: 4em;
+}
+
+.flashy {
+    background: #FF9900;
+}
+
+#countdown_display {
+    font-size: 4em;
+    margin-top: 2em;
+    border-radius: 24em;
+}
