@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var seconds = document.getElementById("ss");
 
 
+    //change this, not a constant
     var COUNTDOWN = 0;
 
 
@@ -32,6 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
 
+    //save seconds etc as constants maybe
     function convert_time() {
         var hours_left = Math.floor(((COUNTDOWN / (1000*60*60)) % 24));
         var minutes_left = Math.floor(((COUNTDOWN / (1000*60)) % 60));
@@ -104,6 +106,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
 
+    // switch to if == 0, else keep doing
     var ticker = 0;
     function tick() {
         if (COUNTDOWN >= 0) {
