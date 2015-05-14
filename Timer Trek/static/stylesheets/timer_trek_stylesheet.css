@@ -17,7 +17,7 @@ h1 {
     color: #FF9900;
     margin-top: .5em;
     font-size: 400%;
-    letter-spacing: -5em;
+/*    letter-spacing: -5em;*/
 }
 
 input {
@@ -26,6 +26,15 @@ input {
     border: #000000;
     font-weight: bold;
     font-size: 3em;
+    width: 30%;
+}
+
+input[type='button'] {
+    text-align: right;
+    font-size: 2em;
+    width: 20%;
+    padding-top: .5em;
+    padding-right: 1em;
 }
 
 input:first-of-type {
