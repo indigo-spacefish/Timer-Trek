@@ -13,6 +13,10 @@ body {
     background-color: #000000;
 }
 
+#elbow {
+    fill: #FF9900;
+}
+
 h1 {
     color: #FF9900;
     margin-top: .5em;
