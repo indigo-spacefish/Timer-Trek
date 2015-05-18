@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var go = document.getElementById("go");
     var pause = document.getElementById("pause");
     var reset = document.getElementById("reset");
+    var online = document.getElementById("online");
     var engage_audio = document.getElementById("engage_audio");
     var pause_audio = document.getElementById("pause_audio");
     var reset_audio = document.getElementById("reset_audio");
@@ -87,6 +88,19 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
+    var online_incrementer = 0;
+    function online_flasher() {
+        online_incrementer += 1;
+        setTimeout(online_flasher, 500);
+
+        if (online_incrementer % 2 != 0) {
+            online.style.display = "none";
+        } else {
+            online.style.display = "inline";
+        }
+
+    }
+
 
     var incrementer = 16;
     function call_flash() {
@@ -167,5 +181,6 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
+    online_flasher();
 
 });

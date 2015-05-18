@@ -16,6 +16,7 @@ body {
 }
 
 #tip {
+    text-align: left;
     background-color: #CC6666;
     height: 2em;
     width: 6.5em;
@@ -27,6 +28,15 @@ body {
     height: 6.5em;
     width: 6.5em;
     margin: 0 .1em .1em .1em;
+}
+
+#top_left span {
+    position: relative;
+    top: 5.25em;
+    padding-left: 2.5em;
+    text-align: right;
+    font-size: 1em;
+    color: #000000;
 }
 
 #container, #container * {
@@ -109,12 +119,10 @@ body {
 
 h1 {
     position: absolute;
-    left: 26.5%;
-    text-align: center;
+    left: 2.25em;
     color: #FF9900;
     font-size: 400%;
     white-space: nowrap;
-/*    letter-spacing: -5em;*/
 }
 
 h1>span {
