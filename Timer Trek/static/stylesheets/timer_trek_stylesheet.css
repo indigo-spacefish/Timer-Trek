@@ -13,8 +13,70 @@ body {
     background-color: #000000;
 }
 
-#elbow {
-    fill: #FF9900;
+#top_lcars *, #bottom_lcars * {
+    display: inline-block;
+    margin: .1em;
+}
+
+#top_elbow, #bottom_elbow {
+    background-color: #000000;
+    width: 40em;
+}
+
+#top_elbow {
+    -moz-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+    filter: FlipV;
+    -ms-filter: "FlipV";
+}
+
+#bottom_elbow * {
+    position: absolute;
+    top: 0;
+}
+
+.blue_box {
+    background-color: #9999FF;
+    width: 2em;
+    height: 2em;
+}
+
+.maroon_box {
+    background-color: #CC6666;
+    width: 2em;
+    height: 2em;
+}
+
+.purple_box {
+    background-color: #CC99CC;
+    width: 8em;
+    height: 2em;
+}
+
+.pink_box {
+    background-color: #FF9966;
+    width: 8em;
+    height: 1.25em;
+}
+
+.long_purple {
+    background-color: #CC99CC;
+    width: 20em;
+    height: 2em;
+}
+
+.long_maroon {
+    background-color: #CC6666;
+    width: 5em;
+    height: 2em;
+}
+
+.long_yellow {
+    background-color: #FF9900;
+    width: 5em;
+    height: 2em;
 }
 
 h1 {
