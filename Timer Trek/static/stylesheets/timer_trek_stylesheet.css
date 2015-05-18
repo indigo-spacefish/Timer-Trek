@@ -85,13 +85,13 @@ body {
 
 .long_purple {
     background-color: #CC99CC;
-    width: 20em;
+    width: 24em;
     height: 2em;
 }
 
 .long_blue {
     background-color: #9999FF;
-    width: 20em;
+    width: 24em;
     height: 2em;
 }
 
@@ -108,11 +108,12 @@ body {
 }
 
 h1 {
+    position: absolute;
+    left: 26.5%;
+    text-align: center;
     color: #FF9900;
-    margin-top: .5em;
-    margin-right: 2em;
     font-size: 400%;
-    text-align: right;
+    white-space: nowrap;
 /*    letter-spacing: -5em;*/
 }
 
