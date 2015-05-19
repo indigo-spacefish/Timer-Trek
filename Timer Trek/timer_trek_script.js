@@ -91,7 +91,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var online_incrementer = 0;
     function online_flasher() {
         online_incrementer += 1;
-        setTimeout(online_flasher, 500);
+        setTimeout(online_flasher, 750);
 
         if (online_incrementer % 2 != 0) {
             online.style.display = "none";

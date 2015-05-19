@@ -117,6 +117,20 @@ body {
     height: 2em;
 }
 
+#bottom_left {
+    background-color: #9999FF;
+    width: 6.5em;
+    height: 12em;
+    margin: 0 .1em .1em .1em;
+}
+
+#last_left {
+    background-color: #CC99CC;
+    width: 6.5em;
+    height: 4em;
+    margin: 0 .1em .1em .1em;
+}
+
 h1 {
     position: absolute;
     left: 2.25em;
@@ -135,7 +149,7 @@ input {
     border: #000000;
     font-weight: bold;
     font-size: 3em;
-    width: 30%;
+    width: 26%;
 }
 
 input[type='button'] {
