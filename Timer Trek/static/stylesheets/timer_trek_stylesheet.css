@@ -45,6 +45,11 @@ body {
     text-align: justify;
 }
 
+#bottom_container {
+    position: fixed;
+    bottom: 30%;
+}
+
 #top_lcars *, #bottom_lcars * {
     display: inline-block;
     margin: .1em;
@@ -121,14 +126,21 @@ body {
     background-color: #9999FF;
     width: 6.5em;
     height: 12em;
-    margin: 0 .1em .1em .1em;
+    margin: .1em .1em .1em .1em;
 }
 
 #last_left {
-    background-color: #CC99CC;
+    background-color: #FF9900;
     width: 6.5em;
     height: 4em;
-    margin: 0 .1em .1em .1em;
+    margin: .2em .1em .1em .1em;
+}
+
+#endcap {
+    background-color: #CC6666;
+    width: 6.5em;
+    height: 4em;
+    margin: .2em .1em .1em .1em;
 }
 
 h1 {
@@ -160,13 +172,6 @@ input[type='button'] {
     padding-right: 1em;
 }
 
-input:first-of-type {
-}
-
-body>div {
-    margin-top: 4em;
-}
-
 div span {
     color: #FF9900;
     font-size: 4em;
@@ -177,7 +182,11 @@ div span {
 }
 
 #countdown_display {
+    position: fixed;
+    bottom: 10%;
     font-size: 4em;
-    margin-top: 2em;
+    margin-top: 1em;
+    margin-left: 2em;
     border-radius: 24em;
+    width: 80%;
 }

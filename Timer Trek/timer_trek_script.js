@@ -18,7 +18,6 @@ document.addEventListener("DOMContentLoaded", function () {
     //change this, not a constant
     var COUNTDOWN = 0;
 
-
     pause.style.display = "none";
     var paused;
 
