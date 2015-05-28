@@ -18,15 +18,15 @@ body {
 #tip {
     text-align: left;
     background-color: #CC6666;
-    height: 2em;
-    width: 6.5em;
-    margin: 0 .1em .2em .1em;
+    height: 5vh;
+    width: 10vw;
+    margin: 0 0 .5vh 0;
 }
 
 #top_left {
     background-color: #9999FF;
-    height: 6.5em;
-    width: 6.5em;
+    height: 10vh;
+    width: 10vw;
     margin: 0 .1em .1em .1em;
 }
 
@@ -39,7 +39,7 @@ body {
     color: #000000;
 }
 
-#container, #container * {
+#middle_bar, #middle_bar * {
     white-space: nowrap;
     overflow: hidden;
     text-align: justify;
@@ -62,7 +62,7 @@ body {
 
 #top_elbow, #bottom_elbow {
     background-color: #000000;
-    width: 40em;
+    height: 20vh;
 }
 
 #top_elbow {
@@ -144,8 +144,6 @@ body {
 }
 
 h1 {
-    position: absolute;
-    left: 2.25em;
     color: #FF9900;
     font-size: 400%;
     white-space: nowrap;
@@ -172,10 +170,12 @@ input[type='button'] {
     padding-right: 1em;
 }
 
+/*
 div span {
     color: #FF9900;
     font-size: 4em;
 }
+*/
 
 .flashy {
     background: #FF9900;

@@ -15,51 +15,50 @@
 
     <section>
 
-        <h1>T I M E R  &nbsp; T R E K &nbsp; <span id="online">O N L I N E</span></h1>
-
         <div id="tip"></div>
 
-        <div id="top_left"><span>LCARS 51485</span></div>
+        <div id="top_bar" class="bar">
+            <div id="top_left"><span>LCARS 54487</span></div>
+            <h1>T I M E R  &nbsp; T R E K &nbsp; <span id="online">O N L I N E</span></h1>
+        </div>
 
-        <div id="container">
-
+        <div id="middle_bar" class="bar">
             <div id="top_lcars">
-                <img id="top_elbow" src="static/images/SVG/elbow.svg"/>
+                <img id="top_elbow" src="static/images/SVG/short_elbow.svg"/>
                 <div class="maroon_box"></div>
                 <div class="purple_box"></div>
                 <div class="long_blue"></div>
                 <div class="long_maroon"></div>
             </div>
-
             <div id="bottom_lcars">
-                <img id="bottom_elbow" src="static/images/SVG/elbow.svg"/>
+                <img id="bottom_elbow" src="static/images/SVG/short_elbow.svg"/>
                 <div class="blue_box"></div>
                 <div class="pink_box"></div>
                 <div class="long_purple"></div>
                 <div class="long_yellow"></div>
             </div>
-
         </div>
 
-        <div id="bottom_left"></div>
+        <div id="bottom_bar" class="bar">
+            <div id="bottom_left"></div>
+            <div id="bottom_container">
+                <input id="hh" type="text" value="00" min="00" max="99" step="1">
+                <span>:</span>
+                <input id="mm" type="text" value="00" min="00" max="59" step="1">
+                <span>:</span>
+                <input id="ss" type="text" value="00" min="00" max="59" step="1">
+                &nbsp;
+                <input id="go" type="button" value="ENGAGE">
+                &nbsp;
+                <input id="pause" type="button" value="PAUSE">
+                &nbsp;
+                <input id="reset" type="button" value="RESET">
+            </div>
+        </div>
 
         <div id="last_left"></div>
 
         <div id="endcap"></div>
-
-        <div id="bottom_container">
-            <input id="hh" type="text" value="00" min="00" max="99" step="1">
-            <span>:</span>
-            <input id="mm" type="text" value="00" min="00" max="59" step="1">
-            <span>:</span>
-            <input id="ss" type="text" value="00" min="00" max="59" step="1">
-            &nbsp;
-            <input id="go" type="button" value="ENGAGE">
-            &nbsp;
-            <input id="pause" type="button" value="PAUSE">
-            &nbsp;
-            <input id="reset" type="button" value="RESET">
-        </div>
 
         <section id="countdown_display" class="flashy"></section>
 
