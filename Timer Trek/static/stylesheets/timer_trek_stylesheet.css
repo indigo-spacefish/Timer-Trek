@@ -4,8 +4,8 @@
 }
 
 * {
-    text-align: center;
     font-family: LCARS_Font, serif;
+    border: 1px solid gray;
 }
 
 body {
@@ -15,45 +15,71 @@ body {
     padding: 0;
 }
 
+#banner {
+    color: #FF9900;
+}
+
+/*The flashing Online*/
+#online {
+    color: #DDDDDD;
+}
+
+input {
+    border-radius: 24em;
+    background-color: #FF9900;
+    border: #000000;
+    font-weight: bold;
+    font-size: 3em;
+    width: 20%;
+}
+
+input[type='button'] {
+    text-align: right;
+    font-size: 2em;
+    width: 20%;
+    padding-top: .5em;
+    padding-right: 1em;
+}
+
+
+.bar * {
+    display: inline-block;
+}
+
+#top_lcars, #bottom_lcars {
+    display: block;
+}
+
 #tip {
     text-align: left;
     background-color: #CC6666;
     height: 5vh;
-    width: 10vw;
+    width: 13.35vw;
     margin: 0 0 .5vh 0;
 }
 
 #top_left {
     background-color: #9999FF;
-    height: 10vh;
-    width: 10vw;
-    margin: 0 .1em .1em .1em;
+    height: 15vh;
+    width: 13.35vw;
+    margin: 0 0 .5vh 0;
 }
 
-#top_left span {
-    position: relative;
-    top: 5.25em;
-    padding-left: 2.5em;
+/*This is the LCARS 54487*/
+#54487 {
     text-align: right;
-    font-size: 1em;
     color: #000000;
 }
 
 #middle_bar, #middle_bar * {
     white-space: nowrap;
     overflow: hidden;
-    text-align: justify;
-}
-
-#bottom_container {
-    position: fixed;
-    bottom: 30%;
 }
 
 #top_lcars *, #bottom_lcars * {
-    display: inline-block;
-    margin: .1em;
     text-align: left;
+    display: inline-block;
+
 }
 
 #bottom_lcars * {
@@ -62,7 +88,7 @@ body {
 
 #top_elbow, #bottom_elbow {
     background-color: #000000;
-    height: 20vh;
+    width: 20vw;
 }
 
 #top_elbow {
@@ -70,7 +96,7 @@ body {
     -o-transform: scaleY(-1);
     -webkit-transform: scaleY(-1);
     transform: scaleY(-1);
-    filter: FlipV;
+/*    filter: FlipV;*/
     -ms-filter: "FlipV";
 }
 
@@ -124,50 +150,23 @@ body {
 
 #bottom_left {
     background-color: #9999FF;
-    width: 6.5em;
-    height: 12em;
-    margin: .1em .1em .1em .1em;
+    width: 10%;
+    height: 25vh;
+    margin: 0;
 }
 
 #last_left {
     background-color: #FF9900;
-    width: 6.5em;
-    height: 4em;
-    margin: .2em .1em .1em .1em;
+    width: 10%;
+    height: 10vh;
+    margin: 0;
 }
 
 #endcap {
     background-color: #CC6666;
-    width: 6.5em;
-    height: 4em;
-    margin: .2em .1em .1em .1em;
-}
-
-h1 {
-    color: #FF9900;
-    font-size: 400%;
-    white-space: nowrap;
-}
-
-h1>span {
-    color: #DDDDDD;
-}
-
-input {
-    border-radius: 24em;
-    background-color: #FF9900;
-    border: #000000;
-    font-weight: bold;
-    font-size: 3em;
-    width: 26%;
-}
-
-input[type='button'] {
-    text-align: right;
-    font-size: 2em;
-    width: 20%;
-    padding-top: .5em;
-    padding-right: 1em;
+    width: 10%;
+    height: 5vh;
+    margin: 0;
 }
 
 /*
